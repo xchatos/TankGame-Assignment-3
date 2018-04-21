@@ -32,7 +32,6 @@ namespace TankGame
 		public Health( Unit owner, int startingHealth )
 		{
 			Owner = owner;
-            
 			CurrentHealth = startingHealth;
 		}
 

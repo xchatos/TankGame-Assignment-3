@@ -23,11 +23,6 @@ namespace TankGame.UI
 			healthItem.gameObject.SetActive( true );
 		}
 
-        //public void RemoveUnit(Unit unit)
-        //{
-        //    var healthItem = Instantiate(_healthUIItemPrefab, transform);
-        //    healthItem.Init(unit);
-        //    healthItem.gameObject.SetActive(false);
-        //}
+ 
     }
 }

@@ -119,11 +119,14 @@ namespace TankGame
 				Load();
 			}
 
-            if (Points.points<_playerUnit._pointsToWin)
+            if (Points.points>_playerUnit._pointsToWin)
             {
                 foreach (Unit unit in _enemyUnit)
                 {
+                    if (unit.isActiveAndEnabled) { 
+                    unit.Health.SetHealth(0);
                     unit.gameObject.SetActive(false);
+                    }
                 }
             }
 
